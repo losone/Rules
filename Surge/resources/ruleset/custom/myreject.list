@@ -24,13 +24,6 @@ AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFI
 #============================================================================================
 
 // 来源：https://github.com/onewayticket255/Surge-Script
-// Zhihu
-DOMAIN,crash2.zhihu.com
-DOMAIN,vdn.vzuu.com
-DOMAIN,sugar.zhihu.com,REJECT
-AND,((USER-AGENT,ZhihuHybrid*), (DOMAIN,api.zhihu.com))
-DOMAIN,unpkg.zhimg.com
-DOMAIN,lens.zhihu.com
 
 // BiliBili
 DOMAIN,thirdparty.biliapi.com
