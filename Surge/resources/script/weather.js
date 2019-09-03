@@ -1,4 +1,4 @@
-const weaapi = "https://www.tianqiapi.com/api/?version=v6"
+const weaapi = "https://www.tianqiapi.com/api/?version=v6&appid=1001&appsecret=5566"
 
 $httpClient.get(weaapi, function(error, response, data){
     if (error){
