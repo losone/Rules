@@ -19,3 +19,6 @@ ProxyE = custom, [SERVER ADDRESS], [GENERATED PORT], [ENCRYPT METHOD], [PASSWORD
 
 # 代理类型：Shadowsocks (新版写法)
 ProxyF = ss, [SERVER ADDRESS], [GENERATED PORT], encrypt-method = [ENCRYPT METHOD], password = [PASSWORD]
+
+# 代理类型：V2ray
+ProxyVmess= vmess, [SERVER ADDRESS], [GENERATED PORT], username = [UUID], ws=true, tls=true, ws-path=/v2, ws-headers=X-Header-1:value|X-Header-2:value
